@@ -10,6 +10,7 @@ namespace Hoone
             Inimene mees = new Inimene("Juku");
             majake.uks = new Uks("must");
             mees.hoone = majake;
+            majake.NaitaINFO();
             mees.NaitaInfo();
         }
     }
